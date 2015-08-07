@@ -1,12 +1,29 @@
 'use strict';
 
 /**
+ * isParentNode
+ */
+function isParentNode(el, parent) {
+  var isParent = false;
+  var currentParent = el.parentElement;
+  while (!isParent) {
+    if (currentParent !== parent) {
+      currentParent = currentParent.parentElement;
+    } else {
+      isParent = true;
+    }
+  };
+  return isParent;
+}
+
+/**
  * handleScroll
  */
 function handleScroll(eve) {
-  if (eve.target !== this) { return; }
+  if (eve.target !== this && !isParentNode(eve.target, this)) { return; }
   eve.preventDefault();
-  this.scrollTop += (eve.deltaY * (Math.floor(Math.random() * 2) % 2 === 0 ? 1 : -1));
+  var self = this;
+  setTimeout(function () { self.scrollTop += eve.deltaY; }, 800);
   return false;
 }
 
