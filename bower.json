@@ -1,0 +1,29 @@
+{
+  "name": "scrollshit",
+  "repository": "https://github.com/pazguille/scrollshit",
+  "description": "A JavaScript library to take full control of the user’s scroll actions (parallax scrolling)",
+  "author": "Guille Paz <guille87paz@gmail.com> (http://pazguille.me/)",
+  "ignore": [
+    ".*",
+    "package.json",
+    "component.json",
+    "node_modules",
+    "browserify.js",
+    "**/.*",
+    "bower_components",
+    "test"
+  ],
+  "homepage": "https://github.com/pazguille/scrollshit",
+  "moduleType": [
+    "adecouplemd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "scrollshit",
+    "scroll",
+    "parallax"
+  ],
+  "main": "dist/scrollshit",
+  "license": "MIT"
+}
