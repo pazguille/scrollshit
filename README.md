@@ -1,6 +1,8 @@
 # scrollshit
 
-> A JavaScript library to take full control of the user’s scroll actions (aka parallax scrolling).
+I hate scroll hijacking and those websites who steal or change your browser’s normal behavior.
+
+> 💩 A JavaScript library to hijacking the user’s scroll 💩
 
 ## Demo
 
@@ -14,7 +16,7 @@
 <script src="dist/scrollshit.min.js"></script>
 ```
 
-Also you can use one of many package managers
+Also you can use one of many package managers (coming soon)
 
     $ npm install scrollshit
 
@@ -25,9 +27,6 @@ Also you can use one of many package managers
 ```js
 scrollshit(document.querySelector('#box'));
 ```
-
-## API
-[TODO]
 
 ## npm-scripts
 

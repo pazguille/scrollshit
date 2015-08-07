@@ -1,7 +1,7 @@
 {
   "name": "scrollshit",
   "repository": "https://github.com/pazguille/scrollshit",
-  "description": "A JavaScript library to take full control of the user’s scroll actions (parallax scrolling)",
+  "description": "A JavaScript library to hijacking the user’s scroll",
   "author": "Guille Paz <guille87paz@gmail.com> (http://pazguille.me/)",
   "ignore": [
     ".*",
