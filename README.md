@@ -8,8 +8,6 @@ I hate scroll hijacking and those websites who steal or change your browser’s 
 
 [Check out the demo](https://pazguille.github.io/scrollshit/) to see it in action.
 
-<img src="" alt="scrollshit demo">
-
 ## Installation
 
 ```html
