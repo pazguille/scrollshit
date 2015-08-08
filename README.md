@@ -2,7 +2,7 @@
 
 I hate scroll hijacking and those websites who steal or change your browser’s normal behavior.
 
-> 💩 A JavaScript library to hijacking the user’s scroll 💩
+> 💩 A JavaScript library to hijacking the user’s scroll
 
 ## Demo
 
