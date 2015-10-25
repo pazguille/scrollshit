@@ -24,7 +24,7 @@ function handleScroll(eve) {
   if (eve.target !== this && !isParentNode(eve.target, this)) { return; }
   eve.preventDefault();
   var self = this;
-  setTimeout(function () { self.scrollTop += eve.deltaY; }, 800);
+  setTimeout(function () { self.scrollTop += (eve.deltaY * (Math.floor(Math.random() * 2) == 1 ? 1 : -1)); }, 500);
   return false;
 }
 
