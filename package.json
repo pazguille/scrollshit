@@ -6,7 +6,7 @@
   "devDependencies": {
     "better-assert": "1.0.2",
     "browserify": "13.3.0",
-    "jsdom": "9.11.0",
+    "jsdom": "11.2.0",
     "mocha": "3.2.0",
     "uglify-js": "2.7.5",
     "jshint": "2.9.4"
